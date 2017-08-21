@@ -9,10 +9,10 @@
 # _data/student_instructors.yml
 #
 ###############################################################################
-
 # Site settings - affect how your site is published
-baseurl: "/course-web-template"       ##### Change this for each semester #####
 url: "https://htc-ccis1301.github.io"
+baseurl: "/fall-2017" ## Change this for each semester!!!!
+
 
 # Color themes. Possible values:
 #    - silver          - gold            - midnight
