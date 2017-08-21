@@ -19,6 +19,7 @@ experiences:
  - intro-brackets
  - intro-install-git
  - intro-hello-world
+ - intro-workflow-summary
 tags:
  - intro
  - Brackets

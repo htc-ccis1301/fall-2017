@@ -4,7 +4,7 @@ summary: "Practice using the shell, git and GitHub to get, create, update and ma
 ---
 
 # {{ page.title }}
-{{page.morea_summary}}
+{{page.summary}}
 
 
 ## Prerequisites
