@@ -1,0 +1,10 @@
+school: Hennepin Technical College
+name: HTML & CSS
+number: CCIS 1301
+semester: Fall 2017
+#section: section number
+
+# The > allows new lines in the text up to the next property
+course_description: >
+
+  This course is an introduction to web development with HTML and CSS. In this course, students will learn about key technologies and standards behind the internet and world wide web. Students will develop website projects that meet current web standards and industry best practices using modern tools and techniques. The focus of this course is on the use of basic HTML and CSS as a technical foundation for later coursework in web application development in JavaScript, .Net or Java.

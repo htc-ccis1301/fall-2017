@@ -1,0 +1,36 @@
+-
+  sort-order: 1
+  id: outcome-key-tech
+  text: "Identify key internet technologies, standards and organizations."
+-
+  sort-order: 2
+  id: outcome-client-server
+  text: "Describe the client/server architecture of the internet, explaining the request-response life-cycle."
+-
+  sort-order: 3
+  id: outcome-dom-structure
+  text: "Explain the structure of the DOM, identifying parent-child and sibling relationships"
+-
+  sort-order: 4
+  id: outcome-valid-html
+  text: "Build valid HTML pages that use best practices for layout, navigation, tables, forms, images and multimedia."
+-
+  sort-order: 5
+  id: outcome-valid-css
+  text: "Write CSS to layout, format and enhance the display of a web page applying industry best practices."
+-
+  sort-order: 6
+  id: outcome-resp-design
+  text: "Develop web pages that alter the visual presentation appropriately for devices of various sizes."
+-
+  sort-order: 7
+  id: outcome-accessibility
+  text: "Identify accessibility barriers in website design and development."
+-
+  sort-order: 8
+  id: outcome-framework
+  text: "Apply a current industry web development framework or library to development of a website."
+-
+  sort-order: 9
+  id: outcome-scm
+  text: "Use a source code management tool to maintain a website."

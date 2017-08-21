@@ -1,0 +1,11 @@
+#-
+#  sort-order: 1
+#  title: Book Title 1
+#  edition: 4th
+#  authors:
+#    - author1
+#    - author2
+#  isbn: 11111-22222
+#  required: true
+#  description: "The is the main textbook for the course."
+#  note: "OK to rent, online access code is not required for this course."
