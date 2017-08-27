@@ -38,6 +38,11 @@ main {
   a {
     text-decoration: underline;
   }
+
+  a:hover {
+    text-decoration: underline;
+    color: lighten($theme-link-color, 30%);
+  }
 }
 
 blockquote {
