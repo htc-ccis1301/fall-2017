@@ -1,7 +1,7 @@
 ---
 ---
 
-$font-family-base:     "Istok Web", Arial, sans-serif;
+$font-family-base: "Istok Web", Arial, sans-serif;
 $headings-font-family: Tienne, Didot, Garamond, "Times New Roman", serif;
 
 @import "colors";
@@ -27,6 +27,17 @@ body {
 main {
   padding: 35px 35px 60px 35px;
   background-color: #FFFFFF;
+
+  h1 {
+    font-size: 2.25em;
+    margin: 1em;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 blockquote {
@@ -43,13 +54,6 @@ h2 {
 
 h3 {
   margin-top: $line-height-computed * 1.5;
-}
-
-main h1 {
-  font-size: 2.25em;
-  margin: 1em;
-  text-align: center;
-  vertical-align: middle;
 }
 
 #toc-page-content h1 {
