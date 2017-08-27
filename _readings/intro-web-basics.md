@@ -11,7 +11,7 @@ summary: "Before we begin developing for the web, it is important to understand 
 The internet and the World Wide Web are public, open spaces. No one person or organization controls what is put out there.  However for content to be accessible to everyone, it is important that web architecture is standardized or this open network would be unable to operate smoothly.  
 
 ### The W3C
-The [World Wide Web Consortium](https://www.w3c.org), or the W3C, is the main organization developing recommendations and prototype technologies for the Web. The W3C creates recommendations for web architecture, web browsers, web design & accessibility, and web services. These recommendations are created by *working groups* which are made up of people from various companies and organizations that research and develop web technologies.  These working groups put forward proposals which are then open for public review. After the review process the recommendations become web standards.
+The [World Wide Web Consortium](https://www.w3c.org), or the W3C, is the main organization developing recommendations and prototype technologies for the Web. The W3C creates recommendations for web architecture and communication, web browsers, web design & accessibility, and web services. These recommendations are created by *working groups* which are made up of people from various companies and organizations that research and develop web technologies.  These working groups put forward proposals which are then open for public review. After the review process the recommendations become web standards.
 
 An example of a W3C Standard is the [HTML 5.1 Standard](https://www.w3.org/TR/2016/REC-html51-20161101/index.html#contents).  This is a *heavy* read, and I don't expect you to actually sit down and read the whole thing, but follow the link and check it out, just to get a sense of who is involved in these recommendations and what they look like.
 
@@ -101,7 +101,7 @@ This is a self-assessed, practice quiz to help you check your understanding of t
 {% assign q4_text = "Which of the following is a standards body that proactively develops recommendations and standards for the World Wide Web?" %}
 {% assign q4_choices = "WCAG, Mosaic, TCP/IP, W3C" | split: ', ' %}
 
-{% assign q4_feedbacks = "Sorry, that is not correct. This topic is covered in the textbook reading. | Sorry, that is not correct. This topic is covered in the textbook reading. | Sorry, that is not correct. This topic is covered in the textbook reading. | Correct! The W3C collects input from numerous sources to recommend and promote Web standards." | split: '| ' %}
+{% assign q4_feedbacks = "Sorry, that is not correct. This topic is covered in the above reading. | Sorry, that is not correct. This topic is covered in the above reading. | Sorry, that is not correct. This topic is covered in the above reading. | Correct! The W3C collects input from numerous sources to recommend and promote Web standards." | split: '| ' %}
 {% include mc-quiz.html
    header="Question 1"
    text=q4_text
@@ -111,7 +111,7 @@ This is a self-assessed, practice quiz to help you check your understanding of t
 %}
 
 {% assign q5_text = "The W3C promotes guidelines to support Web accessibility for individuals with disabilities." %}
-{% assign q5_feedbacks = "Correct! The W3C promotes accessibility through their Web Accessibility Initiative (WAI) and the Web Content Accessibility Guidelines (WCAG). | Sorry. This is a false statement. This topic is covered in the textbook reading." | split: '| ' %}
+{% assign q5_feedbacks = "Correct! The W3C promotes accessibility through their Web Accessibility Initiative (WAI) and the Web Content Accessibility Guidelines (WCAG). | Sorry. This is a false statement. This topic is covered in the reading above." | split: '| ' %}
 {% include mc-quiz.html
    header="Question 2"
    text=q5_text
@@ -120,7 +120,7 @@ This is a self-assessed, practice quiz to help you check your understanding of t
    feedback=q5_feedbacks
 %}
 
-{% assign q15_text = "The ADA is law that requires business and government services, including internet resources, to be accessible to people with disabilities." %}
+{% assign q15_text = "The ADA is a law that requires business and government services, including internet resources, to be accessible to people with disabilities." %}
 {% assign q15_feedbacks = "Correct! ADA or Americans with Disabilities Act requires all business and government resources to be accessible to individuals with disabilities. | Sorry. This is a false statement. This topic is covered in the reading above. | split: '| ' %}
 {% include mc-quiz.html
    header="Question 3"
@@ -230,7 +230,7 @@ This is a self-assessed, practice quiz to help you check your understanding of t
 
 
 {% assign q14_text = "A domain name is a text based address for a device on the internet." %}
-{% assign q14_feedbacks = "Correct! The text based domain name can be associated to a numeric IP address by using a DNS. | Sorry. This is a true statement. This topic is covered in the textbook reading." | split: '| ' %}
+{% assign q14_feedbacks = "Correct! The text based domain name can be associated to a numeric IP address by using a DNS. | Sorry. This is a true statement. This topic is covered in the video 'The Internet: IP Addresses & DNS'." | split: '| ' %}
 {% include mc-quiz.html
    header="Question 13"
    text=q14_text

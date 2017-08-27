@@ -1,5 +1,5 @@
 ---
-title: "Web Standards, Architecture, & Dev Tools"
+title: "Module 1: Web Standards, Architecture, & Dev Tools"
 summary: An introduction to web standards, Internet design and architecture, and the various developer tools and technologies that will be used for this course.
 outcomes:
  - role-w3c
