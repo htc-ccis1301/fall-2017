@@ -12,10 +12,7 @@ Remember this basic HTML template that we used in the first module?
 {% gist mbMosman/5785c6e9534e956b79d7 basicHTML5.html %}
 
 Now let's learn a bit more about it. We'll go through the structure of this template piece by piece, or in better HTML terminology, element by element.
-
-{% include alert.html type="warning"
-    content="Be very careful with your typing. Make sure that you get every single key correct. A missing quote or angle bracket <> can be hard to find and cause problems with the display or page validation."  
-%}  
+ 
 
 ### DOCTYPE
 The `DOCTYPE`, or Document Type Declaration, is used to identify what type of markup a document is written in. The doctype for HTML5 is quite simple:

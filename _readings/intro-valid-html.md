@@ -66,6 +66,11 @@ Additional information on validation can be found on the [W3C website](https://w
 
 
 ## Validation Tips
+
+{% include alert.html type="warning"
+    content="Be very careful with your typing. Make sure that you get every single character correct. A missing quote or angle bracket < > can be hard to find and cause problems with the display or page validation."  
+%}
+
 Students often find validation errors intimidating at first. My best advice is "Don't panic." If you have errors, take a deep breath, relax and then follow the tips below to work through them.
 
 - First, note that warnings are not errors and are not required to be fixed.
