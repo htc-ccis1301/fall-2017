@@ -38,11 +38,12 @@ Then update the page to include the following:
 - A summary of what this thing is and what you like about it.
 - A list of something (ordered or unordered).
 - A header with the site name
-- At least two subheadings with one or more paragraphs of text following each.
+- At least two subheadings (of appropriate levels) with one or more paragraphs of text following each.
+- In-page links to 2nd level subheadings; there should be at least one.
 - A footer with copyright information.  You own the copyright to your own page, so use your name and the current year.
 - An email contact link for you in the footer.  To avoid putting your real email on the page you can use yourFirstName@yourLastName.com or something like that, so long as it is a proper email link, I don't care if it actually works.
 
-Do not neglect the <head> section and HTML structural elements just because they are not visible on the web page. Your head section must include a title and the charset.  Your page should include at a minimum the header, main and footer structural elements.
+Do not neglect the `head` of the HTML document and HTML structural elements just because they are not directly visible on the web page. Your head section must include a title and the charset.  Your page should include at a minimum the HTML5 structural elements for `header`, `nav`, `main` and `footer`. Use `article` and/or `section` elements if appropriate.
 
 Once you have verified your work, version and push it up to GitHub.  
 
