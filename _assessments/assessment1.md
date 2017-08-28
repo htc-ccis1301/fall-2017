@@ -1,12 +1,13 @@
 ---
-title: Assessment 1
-summary: "Short sentence or two that describes this assessment."
+title: Module 1 Assessment
+summary: "At the end of the module, this will be updated to reflect how well the class as a whole met the outcomes in Module 1."
 presentation: bar_chart
 ---
 
+At the end of the module, this will be updated to reflect how well the class as a whole met the outcomes listed in Module 1.
 
-Etiam volutpat sapien sed purus facilisis vestibulum. Nunc sollicitudin mauris vel nulla vehicula, vitae mollis dui malesuada. Aenean eget massa id nibh vestibulum tincidunt in vel diam. Donec ex ex, hendrerit nec fermentum fermentum, laoreet non nulla. Donec id tincidunt purus.
 
+<!--
 <script>
 $(document).ready(function() {
 
@@ -33,3 +34,4 @@ $(document).ready(function() {
     });
 });
 </script>
+-->
