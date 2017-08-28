@@ -38,7 +38,7 @@ Then update the page to include the following:
 - A summary of what this thing is and what you like about it.
 - A list of something (ordered or unordered).
 - A header with the site name
-- At least two subheadings.
+- At least two subheadings with one or more paragraphs of text following each.
 - A footer with copyright information.  You own the copyright to your own page, so use your name and the current year.
 - An email contact link for you in the footer.  To avoid putting your real email on the page you can use yourFirstName@yourLastName.com or something like that, so long as it is a proper email link, I don't care if it actually works.
 
