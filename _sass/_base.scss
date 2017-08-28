@@ -14,7 +14,7 @@ $theme-contrast-text-color: text-color-for-background($theme-color);
 $theme-contrast-text-color-dark: text-color-for-background($theme-color-dark);
 
 $theme-link-color: $theme-color;
-$theme-link-hover-color: darken($theme-link-color, 15%);
+$theme-link-hover-color: lighten($theme-link-color, 30%);
 
 $theme-border-color: darken($theme-color, 20%);
 $theme-border-shadow-color: darken($theme-color, 10%);

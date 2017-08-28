@@ -39,7 +39,8 @@ And XHTML 1.0 looks like this:
 
 The reason that the HTML5 `DOCTYPE` is so simple is that previous standards were not necessarily backward and forward compatible, so it was really important that the browser knew exactly what syntax the author expected the page to be rendered with. HTML5 makes standard a new expectation that future HTML standards are backward compatible, so things written for HTML5 should behave acceptably in that future HTML6 or HTML7 browser. This is a breath of fresh air to the HTML standards world.
 
-
+## More Coming Soon...
+This page is still being written.
 
 ## Review Questions
 

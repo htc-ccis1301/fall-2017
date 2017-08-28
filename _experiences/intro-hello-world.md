@@ -26,7 +26,7 @@ Your assignments from this class will be completed in personal, private reposito
 
 Click the link below, then on the web page, click the green button to accept the assignment.
 
-[GitHub Assignment: HTML Hello World](https://classroom.github.com/a/oS4FwQsi)
+[Assignment - GitHub: HTML Hello World](https://classroom.github.com/a/oS4FwQsi)
 
 
 ### Walkthrough Video
@@ -50,7 +50,12 @@ $ git clone <url>
 ### Use Brackets to edit the website
 Once you have the repository files, open the repository directory in Brackets using File -> Open Folder.  Create any new files required by the assignment, or edit the existing files as needed to complete the work.  Use the Live Preview feature to test your site locally, and use Brackets Beautify to clean up your code before turning it in.
 
-For this assignment you can just copy and paste in the basic HTML template from the reading which is also shown below:
+For this assignment you want to create a new index.html page.
+{% include alert.html type="info"
+    content="Make sure to always call the main web page index.html, as that is the default home page for most web servers."
+%}
+
+Then you can just copy and paste in the basic HTML template from the reading which is also shown below:
 {% gist mbMosman/5785c6e9534e956b79d7 basicHTML5.html %}
 
 After pasting in the above HTML, edit it as follows:
@@ -61,6 +66,8 @@ After pasting in the above HTML, edit it as follows:
 {% include alert.html type="info"
     content="We will talk more about what all of this HTML is and what it means later on.  For now, focus more on the GitHub assignment process."
 %}
+
+We will talk more about what all of this HTML is and what it means later on.  For now, focus more on the GitHub assignment process.
 
 ### Version the modified files
 Versioning the files requires using the `git add`, `git commit`, and `git push` commands.

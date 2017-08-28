@@ -40,6 +40,19 @@ Here is an example of an ordered list:
       embedcode="wqExOb" height="175"
 %}
 
+You can also put lists inside of lists by including a `ul` or `ol` as a child of a `li` element.
+
+{% include alert.html type="warning"
+    content="The `ul` and `ol` elements can only contain `li` children.  If you place the sublist `ul` or `ol` inside the `ul` or `ol` instead of inside one of their child `li` elements, you will get a validation error."
+%}
+
+Here is an example of nesting lists:
+{% include codepen.html username="mbMosman2" author="Mary Mosman"
+      embedcode="wqYvqY" height="430"
+%}
+
+
+
 ## Links
 The *HyperText* in HTML - HyperText Markup Language - comes from the idea that you have *HyperLinks* or embedded reference links to other documents and content. This was a great improvement over the standard references you might have had in a paper document, as you could go directly to the linked content for more information. These links really made the Internet what it is today, and it's hard to imagine not having them.
 
