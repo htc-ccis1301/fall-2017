@@ -29,7 +29,7 @@ Click the link below, then on the web page, click the green button to accept the
 Note that once you accept this assignment for part 1, you will continue working with the same repository on GitHub for later parts of the assignment and will not need to accept the assignment again.
 
 ## Requirements
-Using Brackets and the template HTML introduced in the reading to make a basic HTML page. You should call this page index.html, as that is the default home page for most web servers.
+Use Brackets and the template HTML introduced in the reading to make a basic HTML page. You should call this page index.html, as that is the default home page for most web servers.
 
 Then update the page to include the following:
 
