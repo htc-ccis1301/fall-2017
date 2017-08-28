@@ -1,5 +1,5 @@
 ---
-title: "Fan Page Part 1"
+title: "Fan Page - Part 1"
 summary: "Build a web page about something you really like using the HTML elements we have learned."
 ---
 
