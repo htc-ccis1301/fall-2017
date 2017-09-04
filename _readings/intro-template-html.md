@@ -12,9 +12,13 @@ Remember this basic HTML template that we used in the first module?
 {% gist mbMosman/5785c6e9534e956b79d7 basicHTML5.html %}
 
 Now let's learn a bit more about it. We'll go through the structure of this template piece by piece, or in better HTML terminology, element by element.
- 
 
-### DOCTYPE
+
+### Tags vs Elements
+You'll hear web developers talk about HTML tags and HTML elements, and sometimes they appear to be used interchangeably. However they are technically different things. An HTML tag refers to the markup. The title tag for example, is `<title>` and the closing tag is `</title>`. However the title element includes both the opening and closing tag and everything in between. So the title element is `<title>Title Me!!!</title>`.
+
+
+## DOCTYPE
 The `DOCTYPE`, or Document Type Declaration, is used to identify what type of markup a document is written in. The doctype for HTML5 is quite simple:
 {% highlight html %}
 <!DOCTYPE html>
@@ -81,6 +85,6 @@ Here the body tag only contains a `p` or paragraph element with the text "Replac
 - What is the purpose of the `<!DOCTYPE html>` tag?
 - What is the difference between an opening tag and a closing tag?
 - What are the two required child elements of the `html` element?  What is each used for?
-- What is an attribute?  Give an example of a tag that requires and attribute.
+- What is an attribute?  Give an example of a tag that requires an attribute.
 - What is the purpose of the `<title>` element? Can it be seen when viewing a page in the browser?
 - What is a charset?  How do you tell the browser which charset it should use?

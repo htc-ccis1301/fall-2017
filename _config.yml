@@ -66,6 +66,7 @@ defaults:
       type: "modules"
     values:
       layout: module
+      published: true
   -
     scope:
       path: ""

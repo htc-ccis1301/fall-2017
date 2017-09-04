@@ -5,8 +5,10 @@ layout: full-page
 <h1>Modules <small>Topics covered in this class.</small></h1>
 
 {% assign modules = site.modules | sort: 'sort-order' %}
+
 <div class="row">
 {% for module in modules %}
+{% if module.published %}
 <div class="col-sm-4">
   <a class="block-link" href="{{ module.url | prepend: site.baseurl }}">
     <div class="panel panel-primary">
@@ -25,6 +27,10 @@ layout: full-page
     </div>
   </a>
 </div>
+{% capture count %}{% increment counter %}{% endcapture %}
+{% capture mod %}{{ count | modulo:3 }}{% endcapture %}
+{% if mod == '2' %}<div class="clearfix hidden-xs"></div>{% endif %}
+{% endif %}
 {% else %}
 
   <p>No modules configured for this course.</p>

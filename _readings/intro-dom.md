@@ -27,6 +27,7 @@ By clicking the arrow next to an element name, you can see what is inside of it.
 
 You might be wondering, "What about that `<!DOCTYPE html>`?" After all it comes first so why isn't it the root of the DOM? The `DOCTYPE` is a special markup tag that is informational. That's why it has the `!` at the beginning. We discuss the `DOCTYPE` further in the Reading: [HTML Template Explained](/intro-template-html.html). For now, just know that it is not considered part of the DOM structure. That's why it's greyed out in the Developer Tools view shown in the images above.
 
+
 ### Attributes
 Some HTML elements contain one or more attributes. An __attribute__ is a key-value pair that follows the name of the element inside the opening HTML tag. The name of the attribute is on the left side of the equal sign (=) and the value is on the right.
 

@@ -110,7 +110,7 @@ HTML5 also added the `article` and `section` elements. These elements can be use
 The last of the new HTML5 structure elements is the `aside`. The aside should contain content that is related but not essential. It's purpose is contextual depending on if it is at the page level or contained within an `article` or `section`. At the page level it might contain ads, a search feature, or link to other sites with related information. Within an `article` or `section` it might contain references, a glossary, or other supplemental information.
 
 ### Page Division
-These new structural tags replace the use of the more generic `div` element to structure a page for styling and presentation. For example, you would often that a page would have a `<div id="header">` to identify the common header bar, a `<div id="content">` for the main page content, and <div id="footer"> for the footer content. These `div` elements with id attributes to indicate purpose, are now replaced with the HTML5 elements introduced below.
+These new structural tags replace the use of the more generic `div` element to structure a page for styling and presentation. For example, you would often see that a page would have a `<div id="header">` to identify the common header bar, a `<div id="content">` for the main page content, and <div id="footer"> for the footer content. These `div` elements with id attributes to indicate purpose, are now replaced with the HTML5 elements introduced above.
 
 The `div` element is not obsolete, and is still commonly used, particularly to apply CSS to style particular content. However when an HTML5 structural element would fit the purpose of the `div`, the HTML5 element should be preferred over the use of a `div` with id.
 
