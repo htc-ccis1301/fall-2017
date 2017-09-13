@@ -42,16 +42,13 @@ Update the HTML & CSS to have (at a minimum) the following items:
 - a new document background color
 - a new default document text color
 - a different font (use a full font-stack) for the default document text
-- an element with an id that is used by CSS to change the background or text color
+- a `div` element with an id that is used in the CSS to change the background or text color
 - a `<span>` with a style class that is used by CSS to italicize and change the text color
 - a different font (use a full font-stack) and text color for one level of headings (h1, h2, etc.)
 - capitalize (all caps) for one level of headings (h1, h2, etc.)
 - decrease the font size for the footer
 - use a different list marker
-- bold and increase the font size for your link to the other web page
-- remove the underline from the link to the other web page
-- add a div with a background image to page
-- add a favorite icon to your page
+
 
 {% include alert.html type="warning" content="Use the [CSS Font Stack](http://www.cssfontstack.com/) site to help you select a full font-stack for the font family list. (We discussed what makes a good font-family stack in the reading notes.)" %}
 
