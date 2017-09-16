@@ -1,6 +1,6 @@
 ---
-title: "Fan Page - Part 2"
-summary: "Let's add some CSS to give our Fan Page a bit of style!"
+title: "Fan Page - Part 3"
+summary: "Let's add images to give our Fan Page and improve the overall page layout and style."
 ---
 
 # {{ page.title }}
@@ -10,14 +10,14 @@ summary: "Let's add some CSS to give our Fan Page a bit of style!"
 Completion of this exercise requires completion of the previous assignments:  
 
 - [Fan Page - Part 1]({{ "/experiences/fan-page-pt1.html " | prepend: site.baseurl }})
-
+- [Fan Page - Part 2]({{ "/experiences/fan-page-pt2.html " | prepend: site.baseurl }})
 
 It also requires an understanding of the material presented in earlier modules and the readings:  
 
-- [Styling with CSS]({{ "/readings/css-intro.html " | prepend: site.baseurl }})
-- [Colors in CSS]({{ "/readings/css-colors.html " | prepend: site.baseurl }})
-- [Styling Text]({{ "/readings/css-styling-text.html " | prepend: site.baseurl }})
-
+- [Web Graphics]({{ "/readings/web-graphics.html " | prepend: site.baseurl }})
+- [CSS Box Model]({{ "/readings/css-box-model.html " | prepend: site.baseurl }})
+- [Styling for Images & Layout]({{ "/readings/css-more-styles-more.html " | prepend: site.baseurl }})
+- [Page Layout & Design]({{ "/readings/design-layout.html " | prepend: site.baseurl }})
 
 ## Continue the assignment
 Since this is a multi-part assignment, you will continue working with the website and repository from Part 1 by updating the existing index.html file and adding a new CSS file.
@@ -27,43 +27,61 @@ You will continue to improve and enhance this web page throughout the first part
 You should see your repository from the previous assignment here:
 [ {{ site.data.github-info.org-name }} ]( {{ site.data.github-info.org-url }} )
 
-If you did not complete the first part of the assignment, you will need to go back and do that before beginning part 2. There is a link to the earlier assignments in the Prerequisites section above.
+If you did not complete the first parts of the assignment, you will need to go back and do that before beginning this assignment. There is a link to the earlier assignments in the Prerequisites section above.
 
 ## Requirements
-For this assignment, you will continue work with your fan page project and GitHub repository. You will *update* the HTML page that you created for part 1 adding images and a new CSS file to the site.
+For this assignment, you will continue work with your fan page project and GitHub repository, updating the HTML & CSS pages that were previously created.
 
-__All__ styles must be placed in the external stylesheet.  You should not include any CSS in your HTML page.  This is a general best practice as it supports easier maintenance of your web site.  Does it make sense to you why that might be true?
+Note that many of these requirements pull from topics covered in the earlier modules as well.
 
-### Add Images
-Add a new directory (folder) to your project to hold the image files for your site.
+### More Content
+Add *at least* two more subheadings (for a total of four) to your page. Each subheading should have text and/or image content following it.
 
-Update your web page to include a small (thumbnail) image with a caption that is also a link to a larger version of the same image.  Make sure to include two image files, one for the thumbnail and one for the larger image.  Don't just resize the larger image for the thumbnail.  That is a bad practice as it slows the page load and wastes bandwidth.
+Use HTML5 article and/or section tags to group and organize related content.
 
+### Images
 {% include alert.html type="warning"
   content="As you build this site, be careful in the use of images, text, and other content from other sources. I expect that if you use the material of others that you both have permission to use the material and that you credit the content owner either near the content itself or in the page footer."
 %}
 
-### Style Updates
-Add a new external stylesheet called style.css to your website project folder, and update your index.html page to use your new stylesheet.
+1. Add a new directory (folder) to your project to hold all the image files for your site.
 
-Update the HTML & CSS to have (at a minimum) the following items:
+2. Update your web page to include a small (thumbnail) image.
 
-- a new document background color
-- a new default document text color
-- a different font (use a full font-stack) for the default document text
-- an element with an id that is used by CSS to change the background or text color
-- a `<span>` with a style class that is used by CSS to change the text color
-- a different font (use a full font-stack) for one level of headings (h1, h2, etc.)
-- capitalize (all caps) for one level of headings (h1, h2, etc.)
-- change the font color for one level of headings (h1, h2, etc.)
-- italicize and decrease the font size for the footer
-- use a different list marker
-- bold and increase the font size for your link to the other web page
-- remove the underline from the link to the other web page
-- add a div with a background image to page
-- add a favorite icon to your page
+3. Set up the thumbnail to link to a larger version of the same image.  (Make sure to include two image files, one for the thumbnail sized image and one for the larger image. Don't just resize the large image to show as a thumbnail.)
 
-{% include alert.html type="warning" content="Use the [CSS Font Stack](http://www.cssfontstack.com/) site to help you select a full font-stack for the font family list. (We discussed what makes a good font-family stack in the reading notes.)" %}
+4. Add a larger image with a caption that is styled to look like a polaroid image.
+
+5. Add a small background image to an element so that it is positioned to the side of the content and does not fill the entire element space. (For example it sits to the right side of a heading or list.)
+
+6. Use a *very* small image as a list marker.
+
+7. Add a favicon to your page.
+
+### Layout
+
+1. Set up the `header` to be fixed on the page  and span the full page width. (It should stay in the same position when the page content scrolls.) Ensure that no content is hidden under the header on page load.
+
+2. Set a width of 80% on the `main` content and center it within the page using auto margins.
+
+3. Use padding on the `main` element to set the content away from the edges (element border).
+
+4. Use margins to separate headings from the previous content above.
+
+5. Style some element to have a solid, contrasting colored border on one or two sides.
+
+You should try to set up the spacing from padding & margins to roughly represent the 60-30-10 rule.
+
+### Additional Styling
+1. Set the `html` element to have a gradient background.
+
+2. Set either the `main` or `article` and/or `section` content to have a solid background color with a contrasting, readable text color.
+
+3. Style some element to have a box shadow.
+
+4. Add a semi-transparent background color and rounded corners to one or more headings.
+
+5. Add a text shadow to one level of page headings.
 
 
 Once you have verified your work, version and push it up to GitHub.  
