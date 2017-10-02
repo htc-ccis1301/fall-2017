@@ -1,17 +1,16 @@
 ---
-published: false
-title: "Module 5: Responsive Web Design"
-summary: Information on using images on the web and an introduction to using CSS to alter page layout.
+title: "Module 5: Layout & Responsive Web Design"
+summary: This module introduces methods for using CSS to alter element positioning and page layout for various sized devices.
 outcomes:
- - layout-css
- - html-images
+ - css-layout
+ - css-media-query
 readings:
-- web-graphics
-- design-page-layout
 - css-layout
+- css-responsive
 experiences:
- - fan-page-pt3
+ - fan-page-pt4
 tags:
- - images
-sort-order: 2
+ - responsive design
+ - fluid layout
+sort-order: 5
 ---

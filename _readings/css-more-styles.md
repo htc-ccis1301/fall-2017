@@ -108,9 +108,6 @@ A good application of these styles can really make a website *pop* or stand out.
 <h4 style="text-shadow: 2px 2px 1px #2874A6;" >Example Heading</h4>
 
 
-
-
-
 ## Review Questions
 
  - Explain how to rotate an image using CSS?

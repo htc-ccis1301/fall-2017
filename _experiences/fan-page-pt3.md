@@ -60,7 +60,7 @@ Use HTML5 article and/or section tags to group and organize related content.
 
 ### Layout
 
-1. Set up the `header` to be fixed on the page  and span the full page width. (It should stay in the same position when the page content scrolls.) Ensure that no content is hidden under the header on page load.
+1. Set up the `header` to span the full page width. 
 
 2. Set a width of 80% on the `main` content and center it within the page using auto margins.
 

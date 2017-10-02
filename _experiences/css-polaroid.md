@@ -24,7 +24,7 @@ To do this exercise, you'll need to have an HTML page with a linked CSS file alr
 
 1. Add an image to the web page using the HTML `figure`, `img` and `figcaption` elements as discussed in the reading. It helps to have the image be relatively square in size.
 
-2. Give the image a style class called "polaroid".
+2. Give the figure a style class called "polaroid".
 
 ### Apply the CSS
 In your CSS file, set up a style rule for the "polaroid" class.  

@@ -1,6 +1,6 @@
 ---
 title: "Module 4: Images & Layout"
-summary: Information on using images on the web and an introduction to using CSS to alter page layout.
+summary: Information on using images on the web and CSS for styling images & text content.
 outcomes:
  - html-images
  - css-images
