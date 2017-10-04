@@ -34,7 +34,9 @@ For this assignment, you will continue work with your fan page project and GitHu
 Note that many of these requirements pull from topics covered in the earlier modules as well as the current module.
 
 ### Image Gallery
-Add a small image gallery of 5-10 images. Use an inline-block layout to have the images flow and wrap nicely based on the width of the browser display.
+Add a small image gallery of 5-10 images. Setup each image as a thumbnail that links to a larger image. Make sure to have two image files of appropriate sizes, do not just reduce the image size for the thumbnail with the width and height properties.  
+
+Use an inline-block layout to have the images flow and wrap nicely based on the width of the browser display.
 
 ### Desktop Layout
 
