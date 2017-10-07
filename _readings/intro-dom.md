@@ -167,10 +167,10 @@ Be aware that some elements are both a parent and a child - the `head` for examp
 %}
 
 {% assign q_text = "How many sibling elements does the `title` element have?" %}
-{% assign q_feedbacks = "Look at the structure carefully.  When two elements have the same parent, the two elements are siblings. | Correct! The `title` and `meta` elements are siblings because they both have the `head` as their parent. | Look at the structure carefully. When two elements have the same parent, the two elements are siblings. | Look at the structure carefully.  When two elements have the same parent, the two elements are siblings." | split: '| ' %}
+{% assign q_feedbacks = "Look at the structure carefully.  When two elements have the same parent, the two elements are siblings. | Look at the structure carefully. When two elements have the same parent, the two elements are siblings. | Correct! The `title`, `link` and `meta` elements are all siblings because they both have the `head` as their parent. | Look at the structure carefully.  When two elements have the same parent, the two elements are siblings." | split: '| ' %}
 {% include mc-quiz.html
   header="Question 6"
-  answer=1
+  answer=2
   text=q_text
   choices=num_choices
   feedback=q_feedbacks
