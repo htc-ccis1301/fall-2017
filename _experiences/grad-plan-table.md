@@ -52,6 +52,7 @@ Style the table so that:
 - there is an alternate background color on every other row (use CSS3 Structural Pseudo-classes)
 - the text in the Semester column (use a style class) has a different text color and background color
 - apply a different background color to the summary information
+- center the text *only* in the credits column
 
 Apply CSS to the rest of the page to establish a good margins, padding and layout. You may apply other styles as you see fit, so long as the above requirements are met.
 
