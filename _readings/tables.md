@@ -138,6 +138,7 @@ th,td {
 }
 </pre>
 
+Notice that there are no new CSS properties needed. The same CSS properties used for margin, padding, borders, text, colors, etc. can also be applied to tables.
 
 It's often desirable to alternate the background color on every other table row for readability.  This can be done using CSS structural pseudoclasses.
 
