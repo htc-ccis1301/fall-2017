@@ -14,19 +14,25 @@ Using media on your web pages can make them both more interesting and informativ
 ### HTML5 Elements
 We will focus on the new HTML5 elements for adding media.  However, when building pages for wide use, it is important to provide appropriate fallbacks for browsers that lack HTML5 support. Also note that there is currently no one *way* (encoding/file type) to get media on the web in a way supported by all browsers.  It is important to provide alternate file types and encodings as fallbacks in order to obtain broad support and accessibility across browsers.  
 
- - [W3Schools: HTML Video](https://www.w3schools.com/html/html5_video.asp)
- - [W3Schools: HTML Audio](https://www.w3schools.com/html/html5_audio.asp)
+ - [W3Schools: HTML Video]( https://www.w3schools.com/html/html5_video.asp )
+ - [W3Schools: HTML Audio]( https://www.w3schools.com/html/html5_audio.asp )
+ - [SitePoint: HTML5 Video & Audio]( https://www.sitepoint.com/html5-video-and-audio-the-markup/ )
 
 ### Embed and iFrame
-Elements can also be included into a page using the `embed` and `iframe` elements.  
+Elements can also be included into a page using the `embed` and `iframe` elements.  These elements can also be used inside of the HTML5 elements as a fallback.
 
 The `embed` element has been used to add Adobe Flash (.swf file extension) to web pages, but it can also be used for adding video, audio, or other HTML including maps, Twitter feeds, etc. Many sites offer a button you can click on to get embed code for their services.
  - [W3Schools: Plugins (scroll down page to <embed>)]( https://www.w3schools.com/html/html_object.asp )
  - [Google Maps Help: Embed Google Map]( https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en )
  - [Embed Twitter](https://publish.twitter.com/)
 
- The `iframe` element has a long and complex history, but is now most commonly used for adding things from other services, such as YouTube videos, to your page:
+ The `iframe` element has a long and complex history, but it is now most often to add content from other services to a web page. One common example is adding YouTube videos:
  - [W3Schools: iFrame for YouTube]( https://www.w3schools.com/html/html_youtube.asp )
+
+### Accessibility
+Just like with image media where it is important to provide alternate text for the image in the `alt` attribute, it is important to consider accessibility for other media types as well. With video, consider that some people may not be able to watch the video and provide text descriptions of the content where it is important.
+
+For both video and audio files, consider that text alternatives are important for both those who physically cannot hear and those who may not want to have sound play for other reasons.  Provide captions on all video content and text transcripts for audio files.
 
 
 ## CSS Transform & Transition
