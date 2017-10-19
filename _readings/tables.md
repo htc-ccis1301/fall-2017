@@ -138,14 +138,21 @@ th,td {
 }
 </pre>
 
+### Styling table rows
+It's often desirable to alternate the background color on every other table row for readability.  This can be done using CSS structural pseudoclasses.
+
+ - [CSS Almanac: :first-of-type]( https://css-tricks.com/almanac/selectors/f/first-of-type/ )
+ - [CSS Almanac: :nth-of-type]( https://css-tricks.com/almanac/selectors/n/nth-of-type/ )
+ - [CSS Almanac: :last-of-type]( https://css-tricks.com/almanac/selectors/l/last-of-type/ )
+
 
 ## Additional Resources
 More information can be found on the following pages:
 
- - [W3C Schools: HTML Tables](https://www.w3schools.com/html/html_tables.asp)
- - [W3C Schools: CSS Tables](https://www.w3schools.com/css/css_table.asp)
- - [CSS Tricks: A Complete Guide to Tables](https://css-tricks.com/complete-guide-table-element/)
- - [Mozilla: HTML Table Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
+ - [W3C Schools: HTML Tables]( https://www.w3schools.com/html/html_tables.asp )
+ - [W3C Schools: CSS Tables]( https://www.w3schools.com/css/css_table.asp )
+ - [CSS Tricks: A Complete Guide to Tables]( https://css-tricks.com/complete-guide-table-element/ )
+ - [Mozilla: HTML Table Element Reference]( https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table )
 
 
 ## Review Questions
