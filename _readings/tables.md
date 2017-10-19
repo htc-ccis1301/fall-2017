@@ -138,7 +138,7 @@ th,td {
 }
 </pre>
 
-### Styling table rows
+
 It's often desirable to alternate the background color on every other table row for readability.  This can be done using CSS structural pseudoclasses.
 
  - [CSS Almanac: :first-of-type]( https://css-tricks.com/almanac/selectors/f/first-of-type/ )
