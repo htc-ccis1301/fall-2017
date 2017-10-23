@@ -27,13 +27,10 @@ The repository contains the standard Readme.md and .gitignore files and empty in
 ## Requirements
 Create a web page that demonstrates your ability to include multimedia files on your website. The web page should include:
 
-- HTML5 structure tags for header, main,  and footer
-- HTML5 structure tags for articles or sections with appropriate sub-headings
+- HTML5 structure tags for header, nav, main, footer, and article/sections as appropriate
 - basic CSS for styling, ensure good presentation with adequate spacing
 - a short audio or video or clip (preferably one you make yourself) with a link to download
 - an iframe with a youtube video
-- use CSS pseudo-classes to change the colors of in-page links (not those in the `nav`) based on whether or not they have been visited or not visited
-- use a CSS transition on the nav links to gradually (over 0.5 - 1 second) change the background or text color when hovering over the link
 - Use [Font Awesome](http://fontawesome.io/) to add icons for social media (minimum GitHub & LinkedIn) to the footer of your page.  These icons should link to your account. (If you do not have a LinkedIn account, I recommend that you set one up as it is an excellent career tool, but you may instead link to their main page if you do not have an account.)
 - Find a non-standard font and include and use it on your page using CSS @font-face
 

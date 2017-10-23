@@ -29,7 +29,7 @@ Create a web page to outline your plans for graduation.  The page should include
 - A section heading calling out the program you are working toward
 - A short paragraph with a description of the program and why you are interested in it
 - A table with your graduation plan as outlined below
-- A footer with your copyright and contact info - it is fine to do a fake mailto like in the case study.
+- A footer with your copyright and email contact link (It's ok if it is not a valid email address.)
 
 {% include alert.html type="tip"
     content="If you are not currently enrolled in a degree program, here or at another school, humor me by either looking up one of our programs such as the [.Net Developer](https://www.hennepintech.edu/program/awards/411) or making up similar content."
@@ -42,7 +42,7 @@ Build an HTML table to outline the courses required for graduation from your pro
 
 Organize the table so that there is a row for each course and they are ordered by semester. Each course should have a semester (when you intend to take the course), the course number, name and number of credits.  These should be reflected as column headings.  Instead of repeating the same semester across multiple rows, have the cell span multiple rows so that information appears only once.
 
-At the bottom of the table, add a summary row showing the total number of credits. Structure the summary row so that it contains only two cells: one with the word "total" and the other with a sum of all the credits from the rows above. Add a table caption with the title and make sure to use the table structure element for the head and footer.
+At the bottom of the table, add a summary row showing the total number of credits. Structure the summary row so that it contains only two cells: one with the word "total" and the other with a sum of all the credits from the rows above. Add a table caption with the title and make sure to use the table structure elements for the head and footer.
 
 ### CSS
 Style the table so that:
@@ -53,6 +53,8 @@ Style the table so that:
 - the text in the Semester column (use a style class) has a different text color and background color
 - apply a different background color to the summary information
 - center the text *only* in the credits column
+- use a CSS transition on the nav links to gradually (over 0.5 - 1 second) change the background or text color when hovering over the link
+- use CSS pseudo-classes to change the colors of any non-nav link (footer contact link) based on whether or not they have been visited or not visited (must choose colors other than the browser default)
 
 Apply CSS to the rest of the page to establish a good margins, padding and layout. You may apply other styles as you see fit, so long as the above requirements are met.
 
