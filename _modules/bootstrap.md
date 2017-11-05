@@ -1,15 +1,16 @@
 ---
-published: false
+published: true
 title: "Module 7: Bootstrap"
 summary: This module introduces the Bootstrap Web Framework.
 outcomes:
  - bootstrap
 readings:
  - bootstrap-intro
- - bootstrap-css
- - accessiblity-testing
+ - bootstrap-layout
+ - bootstrap-cmpt
 experiences:
- - ms-bs-veggies
+ - bs-veggies-pt1
+ - bs-veggies-pt2
 tags:
 sort-order: 7
 ---
