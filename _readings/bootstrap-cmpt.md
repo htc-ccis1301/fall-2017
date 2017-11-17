@@ -16,7 +16,7 @@ The [Images](https://getbootstrap.com/docs/4.0/content/images/) and [Figure](htt
 
 
 ### Tables
-Bootstrap also provides CSS classes to add a default style to [tables](http://getbootstrap.com/css/#type-transformation).  Unlike the Reboot styles applied to elements by default, you may choose which (if any) style classes to your HTML tables. For example, just adding the `table` style class to the table tag gives you a basic table with a border separating the rows. Explore the various examples shown on the page to see the many possibilities for Bootstrap table styling.
+Bootstrap also provides CSS classes to add a default style to [tables](https://getbootstrap.com/docs/4.0/content/tables/).  Unlike the Reboot styles applied to elements by default, you may choose which (if any) style classes to your HTML tables. For example, just adding the `table` style class to the table tag gives you a basic table with a border separating the rows. Explore the various examples shown on the page to see the many possibilities for Bootstrap table styling.
 
 ### Utilities & Extensions
 Bootstrap includes many other helpful [utilities](https://getbootstrap.com/docs/4.0/utilities/borders/) classes and [extensions](https://getbootstrap.com/docs/4.0/extend/icons/) to aid in the creation of a nice user interface for your page.  Please review the docs for details and examples.
