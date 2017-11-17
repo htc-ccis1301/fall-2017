@@ -6,7 +6,7 @@ summary: "An introduction to using the Bootstrap framework to design and develop
 # {{ page.title }}
 [Bootstrap](http://getbootstrap.com/) is one of the most popular front end web framework libraries. It is a collection of commonly used, responsive CSS and JavaScript components that can be easily incorporated into any website.  This allows you to create a stylish new website quickly and easily.
 
-The main resource for learning to work with [Bootstrap](http://getbootstrap.com/) is their website documentation.  You should read through the [Getting Started](https://getbootstrap.com/docs/4.0/getting-started/introduction/) page and look at the [Example Pages](http://getbootstrap.com/getting-started/#examples).  We will use the Bootstrap [CSS](http://getbootstrap.com/css/), [Standard Components](http://getbootstrap.com/components/), and [JavaScript Components](http://getbootstrap.com/javascript/) for our projects.  
+The main resource for learning to work with [Bootstrap](http://getbootstrap.com/) is their website documentation.  You should read through the [Getting Started](https://getbootstrap.com/docs/4.0/getting-started/introduction/) page and look at the [Example Pages](https://getbootstrap.com/docs/4.0/examples/).  
 
 {% include alert.html type="note"
    content = "There are notes here to guide you, but you are expected to use the [Bootstrap](http://getbootstrap.com/) documentation as your main learning tool & reference.  This will give you practical experience learning to work with a new web framework, which is an important job skill."
